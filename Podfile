@@ -10,6 +10,8 @@ target 'MNM' do
   pod 'Firebase/Analytics'
   pod 'Firebase/Crashlytics'
 
+  pod 'Appirater'
+  pod 'SDWebImage'
 
 
   target 'MNMTests' do
