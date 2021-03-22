@@ -30,6 +30,20 @@
 		05D640872608E7BA00E707EF /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D640862608E7BA00E707EF /* HapticsManager.swift */; };
 		05D640A82608F60F00E707EF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05D640A72608F60F00E707EF /* GoogleService-Info.plist */; };
 		05D640CD2609179900E707EF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D640CC2609179900E707EF /* Extensions.swift */; };
+		05D640D82609317900E707EF /* PostComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D640D12609317900E707EF /* PostComment.swift */; };
+		05D640D92609317900E707EF /* SettingsOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D640D22609317900E707EF /* SettingsOption.swift */; };
+		05D640DA2609317900E707EF /* SettingsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D640D32609317900E707EF /* SettingsSection.swift */; };
+		05D640DB2609317900E707EF /* ExploreSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D640D42609317900E707EF /* ExploreSection.swift */; };
+		05D640DC2609317900E707EF /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D640D52609317900E707EF /* PostModel.swift */; };
+		05D640DD2609317900E707EF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D640D62609317900E707EF /* User.swift */; };
+		05D640DE2609317900E707EF /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D640D72609317900E707EF /* Notifications.swift */; };
+		05D640E8260931A800E707EF /* SwitchCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D640E2260931A800E707EF /* SwitchCellViewModel.swift */; };
+		05D640E9260931A800E707EF /* ExploreBannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D640E3260931A800E707EF /* ExploreBannerViewModel.swift */; };
+		05D640EA260931A800E707EF /* ExplorePostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D640E4260931A800E707EF /* ExplorePostViewModel.swift */; };
+		05D640EB260931A800E707EF /* ExploreHashtagViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D640E5260931A800E707EF /* ExploreHashtagViewModel.swift */; };
+		05D640EC260931A800E707EF /* ExploreUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D640E6260931A800E707EF /* ExploreUserViewModel.swift */; };
+		05D640ED260931A800E707EF /* ProfileHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D640E7260931A800E707EF /* ProfileHeaderViewModel.swift */; };
+		05D640F2260931EB00E707EF /* ExploreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D640F1260931EB00E707EF /* ExploreManager.swift */; };
 		3F8BADD8E61079A6F9C170F7 /* Pods_MNMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCCDFAA75389AD6FB55AE7F /* Pods_MNMTests.framework */; };
 		6CD42D98C327BB65A02591CB /* Pods_MNM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57707540327C96E112307B59 /* Pods_MNM.framework */; };
 		89E85120C5F00B6ED112912F /* Pods_MNM_MNMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFA70D0B9AE1141410667B4 /* Pods_MNM_MNMUITests.framework */; };
@@ -82,6 +96,20 @@
 		05D640862608E7BA00E707EF /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
 		05D640A72608F60F00E707EF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		05D640CC2609179900E707EF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		05D640D12609317900E707EF /* PostComment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostComment.swift; path = "../../../../Downloads/TikTok-Code/TikTok/Models/PostComment.swift"; sourceTree = "<group>"; };
+		05D640D22609317900E707EF /* SettingsOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsOption.swift; path = "../../../../Downloads/TikTok-Code/TikTok/Models/SettingsOption.swift"; sourceTree = "<group>"; };
+		05D640D32609317900E707EF /* SettingsSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsSection.swift; path = "../../../../Downloads/TikTok-Code/TikTok/Models/SettingsSection.swift"; sourceTree = "<group>"; };
+		05D640D42609317900E707EF /* ExploreSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExploreSection.swift; path = "../../../../Downloads/TikTok-Code/TikTok/Models/ExploreSection.swift"; sourceTree = "<group>"; };
+		05D640D52609317900E707EF /* PostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostModel.swift; path = "../../../../Downloads/TikTok-Code/TikTok/Models/PostModel.swift"; sourceTree = "<group>"; };
+		05D640D62609317900E707EF /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = "../../../../Downloads/TikTok-Code/TikTok/Models/User.swift"; sourceTree = "<group>"; };
+		05D640D72609317900E707EF /* Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = "../../../../Downloads/TikTok-Code/TikTok/Models/Notifications.swift"; sourceTree = "<group>"; };
+		05D640E2260931A800E707EF /* SwitchCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwitchCellViewModel.swift; path = "../../../../Downloads/TikTok-Code/TikTok/ViewModels/SwitchCellViewModel.swift"; sourceTree = "<group>"; };
+		05D640E3260931A800E707EF /* ExploreBannerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExploreBannerViewModel.swift; path = "../../../../Downloads/TikTok-Code/TikTok/ViewModels/ExploreBannerViewModel.swift"; sourceTree = "<group>"; };
+		05D640E4260931A800E707EF /* ExplorePostViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExplorePostViewModel.swift; path = "../../../../Downloads/TikTok-Code/TikTok/ViewModels/ExplorePostViewModel.swift"; sourceTree = "<group>"; };
+		05D640E5260931A800E707EF /* ExploreHashtagViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExploreHashtagViewModel.swift; path = "../../../../Downloads/TikTok-Code/TikTok/ViewModels/ExploreHashtagViewModel.swift"; sourceTree = "<group>"; };
+		05D640E6260931A800E707EF /* ExploreUserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExploreUserViewModel.swift; path = "../../../../Downloads/TikTok-Code/TikTok/ViewModels/ExploreUserViewModel.swift"; sourceTree = "<group>"; };
+		05D640E7260931A800E707EF /* ProfileHeaderViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileHeaderViewModel.swift; path = "../../../../Downloads/TikTok-Code/TikTok/ViewModels/ProfileHeaderViewModel.swift"; sourceTree = "<group>"; };
+		05D640F1260931EB00E707EF /* ExploreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreManager.swift; sourceTree = "<group>"; };
 		162A06998E1AE8C5688E7E31 /* Pods-MNM-MNMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MNM-MNMUITests.release.xcconfig"; path = "Target Support Files/Pods-MNM-MNMUITests/Pods-MNM-MNMUITests.release.xcconfig"; sourceTree = "<group>"; };
 		57707540327C96E112307B59 /* Pods_MNM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MNM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BCCDFAA75389AD6FB55AE7F /* Pods_MNMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MNMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -208,6 +236,13 @@
 		05D640302608E3DD00E707EF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				05D640D42609317900E707EF /* ExploreSection.swift */,
+				05D640D72609317900E707EF /* Notifications.swift */,
+				05D640D12609317900E707EF /* PostComment.swift */,
+				05D640D52609317900E707EF /* PostModel.swift */,
+				05D640D22609317900E707EF /* SettingsOption.swift */,
+				05D640D32609317900E707EF /* SettingsSection.swift */,
+				05D640D62609317900E707EF /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -215,6 +250,12 @@
 		05D640312608E3E600E707EF /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				05D640E3260931A800E707EF /* ExploreBannerViewModel.swift */,
+				05D640E5260931A800E707EF /* ExploreHashtagViewModel.swift */,
+				05D640E4260931A800E707EF /* ExplorePostViewModel.swift */,
+				05D640E6260931A800E707EF /* ExploreUserViewModel.swift */,
+				05D640E7260931A800E707EF /* ProfileHeaderViewModel.swift */,
+				05D640E2260931A800E707EF /* SwitchCellViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -226,6 +267,7 @@
 				05D6407C2608E79500E707EF /* DatabaseManager.swift */,
 				05D640812608E7A500E707EF /* AuthenticationManager.swift */,
 				05D640862608E7BA00E707EF /* HapticsManager.swift */,
+				05D640F1260931EB00E707EF /* ExploreManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -266,8 +308,32 @@
 		05D640692608E65B00E707EF /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				05D640F82609347E00E707EF /* Auth */,
+				05D640F72609346D00E707EF /* Explore */,
+				05D640F62609346200E707EF /* Notifications */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		05D640F62609346200E707EF /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		05D640F72609346D00E707EF /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		05D640F82609347E00E707EF /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 		2F9DC87FC63E39B70334BB2C /* Frameworks */ = {
@@ -549,22 +615,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05D640E8260931A800E707EF /* SwitchCellViewModel.swift in Sources */,
+				05D640DA2609317900E707EF /* SettingsSection.swift in Sources */,
+				05D640D82609317900E707EF /* PostComment.swift in Sources */,
 				05D640872608E7BA00E707EF /* HapticsManager.swift in Sources */,
 				05D640CD2609179900E707EF /* Extensions.swift in Sources */,
 				05D6407D2608E79500E707EF /* DatabaseManager.swift in Sources */,
+				05D640DC2609317900E707EF /* PostModel.swift in Sources */,
+				05D640ED260931A800E707EF /* ProfileHeaderViewModel.swift in Sources */,
+				05D640EB260931A800E707EF /* ExploreHashtagViewModel.swift in Sources */,
+				05D640F2260931EB00E707EF /* ExploreManager.swift in Sources */,
+				05D640DB2609317900E707EF /* ExploreSection.swift in Sources */,
 				05D640392608E54F00E707EF /* ExploreViewController.swift in Sources */,
 				05D640502608E5AF00E707EF /* UserListViewController.swift in Sources */,
+				05D640EA260931A800E707EF /* ExplorePostViewModel.swift in Sources */,
 				05D6405F2608E5EE00E707EF /* SettingsViewController.swift in Sources */,
 				05D6406B2608E69600E707EF /* PostViewController.swift in Sources */,
+				05D640E9260931A800E707EF /* ExploreBannerViewModel.swift in Sources */,
+				05D640EC260931A800E707EF /* ExploreUserViewModel.swift in Sources */,
 				05D640412608E56800E707EF /* CameraViewController.swift in Sources */,
 				05D640642608E62700E707EF /* TabBarViewController.swift in Sources */,
 				0527B80125FF1EF8001525D5 /* HomeViewController.swift in Sources */,
 				05D6405A2608E5D000E707EF /* SignUpViewController.swift in Sources */,
+				05D640DE2609317900E707EF /* Notifications.swift in Sources */,
 				05D640822608E7A500E707EF /* AuthenticationManager.swift in Sources */,
 				05D640462608E58700E707EF /* NotificationsViewController.swift in Sources */,
 				05D640552608E5C200E707EF /* SignInViewController.swift in Sources */,
 				05D6404B2608E59600E707EF /* ProfileViewController.swift in Sources */,
 				05D640782608E78300E707EF /* StorageManager.swift in Sources */,
+				05D640DD2609317900E707EF /* User.swift in Sources */,
+				05D640D92609317900E707EF /* SettingsOption.swift in Sources */,
 				0527B7FD25FF1EF8001525D5 /* AppDelegate.swift in Sources */,
 				0527B7FF25FF1EF8001525D5 /* SceneDelegate.swift in Sources */,
 			);
