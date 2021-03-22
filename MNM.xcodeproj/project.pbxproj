@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -29,6 +29,7 @@
 		05D6407D2608E79500E707EF /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D6407C2608E79500E707EF /* DatabaseManager.swift */; };
 		05D640822608E7A500E707EF /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D640812608E7A500E707EF /* AuthenticationManager.swift */; };
 		05D640872608E7BA00E707EF /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D640862608E7BA00E707EF /* HapticsManager.swift */; };
+		05D640A82608F60F00E707EF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05D640A72608F60F00E707EF /* GoogleService-Info.plist */; };
 		3F8BADD8E61079A6F9C170F7 /* Pods_MNMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCCDFAA75389AD6FB55AE7F /* Pods_MNMTests.framework */; };
 		6CD42D98C327BB65A02591CB /* Pods_MNM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57707540327C96E112307B59 /* Pods_MNM.framework */; };
 		89E85120C5F00B6ED112912F /* Pods_MNM_MNMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFA70D0B9AE1141410667B4 /* Pods_MNM_MNMUITests.framework */; };
@@ -80,6 +81,7 @@
 		05D6407C2608E79500E707EF /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		05D640812608E7A500E707EF /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 		05D640862608E7BA00E707EF /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		05D640A72608F60F00E707EF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		162A06998E1AE8C5688E7E31 /* Pods-MNM-MNMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MNM-MNMUITests.release.xcconfig"; path = "Target Support Files/Pods-MNM-MNMUITests/Pods-MNM-MNMUITests.release.xcconfig"; sourceTree = "<group>"; };
 		57707540327C96E112307B59 /* Pods_MNM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MNM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BCCDFAA75389AD6FB55AE7F /* Pods_MNMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MNMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -176,6 +178,7 @@
 		05D6402D2608E35A00E707EF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				05D640A72608F60F00E707EF /* GoogleService-Info.plist */,
 				0527B80525FF1EFA001525D5 /* Assets.xcassets */,
 				0527B7FC25FF1EF8001525D5 /* AppDelegate.swift */,
 				0527B7FE25FF1EF8001525D5 /* SceneDelegate.swift */,
@@ -287,7 +290,6 @@
 				99213A1D5AE19359606B4328 /* Pods-MNMTests.debug.xcconfig */,
 				C626853EB695694961F66477 /* Pods-MNMTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -401,6 +403,7 @@
 			files = (
 				0527B80925FF1EFA001525D5 /* LaunchScreen.storyboard in Resources */,
 				0527B80625FF1EFA001525D5 /* Assets.xcassets in Resources */,
+				05D640A82608F60F00E707EF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
