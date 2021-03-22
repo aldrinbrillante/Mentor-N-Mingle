@@ -2,6 +2,15 @@
 
 ## Welcome to MNM!
 
-***This app is a Social Media Video Sharing Application with the theme of casual networking amongst mentors, potential mentees, and peers!***
+***Social Media Video Sharing Application with the theme of casual networking amongst mentors, potential mentees, and peers!***
+
+## Features
+- Feed
+- Explore
+- Posting Videos
+- Notifications
+- Profile
+- & more...
+
 
 ***App Store Launch coming soon! ETA Mar 2021***
