@@ -44,6 +44,8 @@
 		05D640EC260931A800E707EF /* ExploreUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D640E6260931A800E707EF /* ExploreUserViewModel.swift */; };
 		05D640ED260931A800E707EF /* ProfileHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D640E7260931A800E707EF /* ProfileHeaderViewModel.swift */; };
 		05D640F2260931EB00E707EF /* ExploreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D640F1260931EB00E707EF /* ExploreManager.swift */; };
+		05D640FA2609357B00E707EF /* RecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D640F92609357B00E707EF /* RecordButton.swift */; };
+		05D640FF260935B900E707EF /* ProfileHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D640FE260935B900E707EF /* ProfileHeaderCollectionReusableView.swift */; };
 		3F8BADD8E61079A6F9C170F7 /* Pods_MNMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCCDFAA75389AD6FB55AE7F /* Pods_MNMTests.framework */; };
 		6CD42D98C327BB65A02591CB /* Pods_MNM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57707540327C96E112307B59 /* Pods_MNM.framework */; };
 		89E85120C5F00B6ED112912F /* Pods_MNM_MNMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFA70D0B9AE1141410667B4 /* Pods_MNM_MNMUITests.framework */; };
@@ -110,6 +112,8 @@
 		05D640E6260931A800E707EF /* ExploreUserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExploreUserViewModel.swift; path = "../../../../Downloads/TikTok-Code/TikTok/ViewModels/ExploreUserViewModel.swift"; sourceTree = "<group>"; };
 		05D640E7260931A800E707EF /* ProfileHeaderViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileHeaderViewModel.swift; path = "../../../../Downloads/TikTok-Code/TikTok/ViewModels/ProfileHeaderViewModel.swift"; sourceTree = "<group>"; };
 		05D640F1260931EB00E707EF /* ExploreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreManager.swift; sourceTree = "<group>"; };
+		05D640F92609357B00E707EF /* RecordButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordButton.swift; sourceTree = "<group>"; };
+		05D640FE260935B900E707EF /* ProfileHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
 		162A06998E1AE8C5688E7E31 /* Pods-MNM-MNMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MNM-MNMUITests.release.xcconfig"; path = "Target Support Files/Pods-MNM-MNMUITests/Pods-MNM-MNMUITests.release.xcconfig"; sourceTree = "<group>"; };
 		57707540327C96E112307B59 /* Pods_MNM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MNM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BCCDFAA75389AD6FB55AE7F /* Pods_MNMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MNMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -311,6 +315,8 @@
 				05D640F82609347E00E707EF /* Auth */,
 				05D640F72609346D00E707EF /* Explore */,
 				05D640F62609346200E707EF /* Notifications */,
+				05D640F92609357B00E707EF /* RecordButton.swift */,
+				05D640FE260935B900E707EF /* ProfileHeaderCollectionReusableView.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -623,6 +629,7 @@
 				05D6407D2608E79500E707EF /* DatabaseManager.swift in Sources */,
 				05D640DC2609317900E707EF /* PostModel.swift in Sources */,
 				05D640ED260931A800E707EF /* ProfileHeaderViewModel.swift in Sources */,
+				05D640FF260935B900E707EF /* ProfileHeaderCollectionReusableView.swift in Sources */,
 				05D640EB260931A800E707EF /* ExploreHashtagViewModel.swift in Sources */,
 				05D640F2260931EB00E707EF /* ExploreManager.swift in Sources */,
 				05D640DB2609317900E707EF /* ExploreSection.swift in Sources */,
@@ -632,6 +639,7 @@
 				05D6405F2608E5EE00E707EF /* SettingsViewController.swift in Sources */,
 				05D6406B2608E69600E707EF /* PostViewController.swift in Sources */,
 				05D640E9260931A800E707EF /* ExploreBannerViewModel.swift in Sources */,
+				05D640FA2609357B00E707EF /* RecordButton.swift in Sources */,
 				05D640EC260931A800E707EF /* ExploreUserViewModel.swift in Sources */,
 				05D640412608E56800E707EF /* CameraViewController.swift in Sources */,
 				05D640642608E62700E707EF /* TabBarViewController.swift in Sources */,
